@@ -1,8 +1,19 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  transition: all 300ms ease-in-out;
 }
 
-.App-logo {
+body {
+  margin: 0;
+}
+.App {
+  height : 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +46,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
